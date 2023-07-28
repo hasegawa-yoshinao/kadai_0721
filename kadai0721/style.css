@@ -1,0 +1,68 @@
+/* サイト全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C7A7B;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* 商品リストのスタイル */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product {
+    flex: 1 1 300px;
+    padding: 1rem;
+    border: 1px solid #DDD;
+}
+
+.product h3 {
+    color: #2C7A7B;
+}
+
+/* ショッピングカートのスタイル */
+.shopping-cart {
+    margin-top: 2rem;
+}
+
+.shopping-cart h2 {
+    color: #2C7A7B;
+}
+
+.shopping-cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shopping-cart li {
+    margin-bottom: 1rem;
+}
+
+.shopping-cart button {
+    background-color: #2C7A7B;
+    color: #FFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #90C3C8;
+    text-align: center;
+    padding: 1rem 0;
+    color: #FFF;
+}
